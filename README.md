@@ -9,9 +9,13 @@ L'utilisateur va lancer le programme en donnant le fichier de données en entré
 ##Les options disponibles : 
 
 -Option -d1 : Identifie les conducteurs avec le plus grand nombre de trajets. Génère un fichier temporaire contenant les résultats et crée un graphique horizontal basé sur ces données. 
+
 -Option -d2 : Identifie les conducteurs avec les trajets de plus grande distance. Génère un fichier temporaire et un graphique horizontal basé sur ces données. 
+
 -Option -l : Identifie les conducteurs avec les trajets les plus longs en termes de distance. Génère un fichier temporaire, un graphique vertical, et stocke dans le dossier “images”.
+
 -Option -t : Identifie le nombre de trajets parcourus dans chaque ville, ainsi que le nombre de fois où ces villes ont été des villes de départ de trajets. Fait appel au programme C et crée un graphique de type histogramme regroupé. 
+
 -Option -s : Identifie les distances minimales, moyennes et maximales des étapes, pour chaque trajet. Fait également appel au programme C et crée un graphique de type courbes min-max-moyenne.
 
 Ces options sont exclusives entre elles. Cela signifie qu’une seule option à la fois peut être activée au maximum.
